@@ -1,0 +1,12 @@
+body{
+    background-color: darkred;
+    color: beige;
+}
+
+h1{
+    color: burlywood;
+    background-color: darkslategrey;
+    font: italic 200% fantasy;
+    text-align: center;
+    border: 3px groove #fff;
+}
