@@ -1,0 +1,38 @@
+body{
+    background-color: darkred;
+    background-image: url("image 3.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    color: beige;
+}
+
+h1{
+    color: burlywood;
+    background-color: darkslategrey;
+    font: italic 200% fantasy;
+    text-align: center;
+    border: 3px groove #fff;
+    width: fit-content;
+    padding: 10px;
+}
+
+h2{
+    color: tan;
+    background-color: teal;
+    width: fit-content;
+    padding: 5px;
+}
+
+h3{
+    color: wheat;
+    background-color: seagreen;
+    width: fit-content;
+    padding: 10px;
+}
+
+h4{
+    color: linen;
+    background-color: olivedrab;
+    width: fit-content;
+    padding: 10px;
+}
