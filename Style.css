@@ -66,3 +66,11 @@ table{
     padding: 10px;
     width: 500px;
 }
+
+/* Classes --- you can change a particular tag using the class --- dot notation */
+
+.TopNav { /* Top Navigation */
+    background-color: darkgreen;
+    width: auto;
+    padding: 10px;
+}
