@@ -23,9 +23,52 @@
     <form action="results.html" method="POST">
 
 
-        First Name: <input type="text" size="30" value="Type your text here" name="Fname"/> 
-        Last Name: <input type="text" size="30" value="Last Name" name="Lname"/><br>
-        Password: <input type="password" size="30" value="pass" name="pword"/>
+        First Name: <input type="text" size="30"  name="Fname" required placeholder="firstname required"/> 
+        Last Name: <input type="text" size="30" name="Lname" required placeholder="lastname required"/><br>
+        Password: <input type="password" size="30" name="pword" required/> <br>
+
+        <!--Checkboxes-->
+        <h3>My Hobbies</h3>
+
+        <input type="checkbox" value="swim" name="hobbies"> Swimming
+        <input type="checkbox" value="music" name="hobbies"> Listening to music
+        <input type="checkbox" value="travel" name="hobbies"> Travelling <br>
+        <input type="checkbox" value="read" name="hobbies"> Reading
+        <input type="checkbox" value="hike" name="hobbies"> Hiking 
+
+        <!--Radio or Option button-->
+        <h4>How old are you?</h4>
+
+        <input type="radio" value="under" name="age"> 15-18 <br>
+        <input type="radio" value="over" name="age"> 19-25 <br>
+        <input type="radio" value="youth" name="age"> 26-35 <br>
+        <input type="radio" value="old" name="age"> 36 & above
+
+        <!--Combobox or Dropdown menu --- Select -->
+
+        <h5>Select your county</h5>
+        <select>
+            <option>Nairobi</option>
+            <option>Mombasa</option>
+            <option>Kisumu</option>
+            <option>Nyeri</option>
+            <option>Machakos</option>
+            <option>Baringo</option>
+            <option>Kisii</option>
+            <option>Nakuru</option>
+        </select>
+
+        <!--textarea -- textbox with multiple lines and columns-->
+
+        <h6>Type your comments here</h6>
+
+        <textarea rows="10" cols="50">
+            here your opinion matters
+        </textarea>
+
+<p></p>
+        <input type="submit" value="Click Me" name="submit"/>
+        <input type="reset" value="Cancel" name="reset"/>
 
     </form>
 
